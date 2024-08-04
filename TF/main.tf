@@ -10,10 +10,10 @@ module "static_website" {
   }
 }
 
-output "website_url" {
+/* output "website_url" {
   value = module.static_website.s3_bucket_website_endpoint
-}
+} 
 
 output "cdn_url" {
   value = module.static_website.cloudfront_domain_name
-}
+} */
